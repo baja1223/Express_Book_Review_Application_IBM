@@ -6,6 +6,8 @@ const regd_users = express.Router();
 let users = [];
 
 const isValid = (user)=>{ //returns boolean
+// This is a random comment
+
     let filtered_users = users.filter((user)=> user.username === user);
     if(filtered_users){
         return true;
