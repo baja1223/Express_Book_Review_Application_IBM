@@ -32,6 +32,8 @@ if(req.session.authorization) {
  
 const PORT =5000;
 
+// This is a random comment
+
 app.use("/customer", customer_routes);
 app.use("/", genl_routes);
 app.listen(PORT,()=>console.log("Server is running at Port: " + PORT));
